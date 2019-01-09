@@ -1,6 +1,6 @@
 {
   "name": "get-n-log",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Escape the dreaded Uncaught TypeError: Cannot read property 'a' of undefined",
   "license": "MIT",
   "repository": "rabbishuki/get-n-log",
