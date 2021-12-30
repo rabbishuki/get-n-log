@@ -8,7 +8,7 @@ module.exports = function getSafe(fn, defaultVal) {
         return fn();
     } catch (e) {
         const string = fn.toString();
-        const search = string.substr(21, string.length - 24);
+        const search = string.slice(string.indexOf('.') + 1);
         console.warn('getSafe cant get:', search);
         return defaultVal;
     }
